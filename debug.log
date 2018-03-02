@@ -1,0 +1,2 @@
+[0506/215654.106:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[0506/215654.132:ERROR:crashpad_client_win.cc(652)] not connected

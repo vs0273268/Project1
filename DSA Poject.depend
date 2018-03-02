@@ -1,0 +1,513 @@
+# depslib dependency file v1.0
+1493982984 source:g:\dsa poject\bst.cpp
+	"BST.h"
+	<iostream>
+	"Customer_class.h"
+	<stdio.h>
+
+1493982050 g:\dsa poject\bst.h
+	"node.cpp"
+	"Customer_class.h"
+
+1493652092 g:\dsa poject\node.h
+
+1493982572 g:\dsa poject\customer_class.h
+	<iostream>
+	"slinklist.h"
+	"Ticket.h"
+	<fstream>
+
+1493983025 source:g:\dsa poject\main.cpp
+	<iostream>
+	"Customer_class.h"
+	"BST.h"
+	"Flight_class.h"
+	"flinklist.cpp"
+	<fstream>
+	"Plane.h"
+	"slinklist.cpp"
+	"Airport.h"
+	"Ticket.h"
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"QNode.cpp"
+	<ctime>
+
+1493542150 source:g:\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493542150 g:\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493968174 source:g:\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493967866 g:\dsa poject\flinklist.h
+	"fNode.cpp"
+	"Flight_class.h"
+
+1493896461 g:\dsa poject\fnode.h
+
+1493896438 g:\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493896438 source:g:\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493922682 g:\dsa poject\flight_class.h
+	"Ticket.h"
+	<iostream>
+
+1493968174 g:\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493978513 g:\dsa poject\plane.h
+	"slinklist.h"
+	<iostream>
+
+1493979450 g:\dsa poject\slinklist.h
+	"snode.cpp"
+	"Plane.h"
+	"Airport.h"
+
+1493671077 g:\dsa poject\snode.h
+
+1493980091 g:\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493980091 source:g:\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493671087 source:g:\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493671087 g:\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493745559 g:\dsa poject\airport.h
+	"slinklist.h"
+	<iostream>
+
+1493977766 g:\dsa poject\ticket.h
+	"slinklist.h"
+	<iostream>
+
+1493932304 g:\dsa poject\queue.h
+	<iostream>
+	"QNode.h"
+
+1493931642 g:\dsa poject\qnode.h
+
+1493930555 g:\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493930555 source:g:\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493982986 source:e:\usb data\dsa poject\bst.cpp
+	"BST.h"
+	<iostream>
+	"Customer_class.h"
+	<stdio.h>
+
+1493982052 e:\usb data\dsa poject\bst.h
+	"node.cpp"
+	"Customer_class.h"
+
+1493542152 e:\usb data\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493652094 e:\usb data\dsa poject\node.h
+
+1493982574 e:\usb data\dsa poject\customer_class.h
+	<iostream>
+	"slinklist.h"
+	"Ticket.h"
+	<fstream>
+
+1493979452 e:\usb data\dsa poject\slinklist.h
+	"snode.cpp"
+	"Plane.h"
+	"Airport.h"
+
+1493671088 e:\usb data\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493671078 e:\usb data\dsa poject\snode.h
+
+1493978514 e:\usb data\dsa poject\plane.h
+	"slinklist.h"
+	<iostream>
+
+1493745560 e:\usb data\dsa poject\airport.h
+	"slinklist.h"
+	<iostream>
+
+1493977768 e:\usb data\dsa poject\ticket.h
+	"slinklist.h"
+	<iostream>
+
+1493968176 source:e:\usb data\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493967868 e:\usb data\dsa poject\flinklist.h
+	"fNode.cpp"
+	"Flight_class.h"
+
+1493896440 e:\usb data\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493896462 e:\usb data\dsa poject\fnode.h
+
+1493922684 e:\usb data\dsa poject\flight_class.h
+	"Ticket.h"
+	<iostream>
+
+1493896440 source:e:\usb data\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493983026 source:e:\usb data\dsa poject\main.cpp
+	<iostream>
+	"Customer_class.h"
+	"BST.h"
+	"Flight_class.h"
+	"flinklist.cpp"
+	<fstream>
+	"Plane.h"
+	"slinklist.cpp"
+	"Airport.h"
+	"Ticket.h"
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"QNode.cpp"
+	<ctime>
+
+1493968176 e:\usb data\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493980092 e:\usb data\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493932306 e:\usb data\dsa poject\queue.h
+	<iostream>
+	"QNode.h"
+
+1493931644 e:\usb data\dsa poject\qnode.h
+
+1493930556 e:\usb data\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493542152 source:e:\usb data\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493930556 source:e:\usb data\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493980092 source:e:\usb data\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493671088 source:e:\usb data\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493986586 source:c:\users\talha\desktop\dsa poject\bst.cpp
+	"BST.h"
+	<iostream>
+	"Customer_class.h"
+	<stdio.h>
+
+1493985652 c:\users\talha\desktop\dsa poject\bst.h
+	"node.cpp"
+	"Customer_class.h"
+
+1493545752 c:\users\talha\desktop\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493655694 c:\users\talha\desktop\dsa poject\node.h
+
+1493986174 c:\users\talha\desktop\dsa poject\customer_class.h
+	<iostream>
+	"slinklist.h"
+	"Ticket.h"
+	<fstream>
+
+1493983052 c:\users\talha\desktop\dsa poject\slinklist.h
+	"snode.cpp"
+	"Plane.h"
+	"Airport.h"
+
+1493674688 c:\users\talha\desktop\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493674678 c:\users\talha\desktop\dsa poject\snode.h
+
+1493982114 c:\users\talha\desktop\dsa poject\plane.h
+	"slinklist.h"
+	<iostream>
+
+1493749160 c:\users\talha\desktop\dsa poject\airport.h
+	"slinklist.h"
+	<iostream>
+
+1493981368 c:\users\talha\desktop\dsa poject\ticket.h
+	"slinklist.h"
+	<iostream>
+
+1493971776 source:c:\users\talha\desktop\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493971468 c:\users\talha\desktop\dsa poject\flinklist.h
+	"fNode.cpp"
+	"Flight_class.h"
+
+1493900040 c:\users\talha\desktop\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493900062 c:\users\talha\desktop\dsa poject\fnode.h
+
+1493926284 c:\users\talha\desktop\dsa poject\flight_class.h
+	"Ticket.h"
+	<iostream>
+
+1493900040 source:c:\users\talha\desktop\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493986626 source:c:\users\talha\desktop\dsa poject\main.cpp
+	<iostream>
+	"Customer_class.h"
+	"BST.h"
+	"Flight_class.h"
+	"flinklist.cpp"
+	<fstream>
+	"Plane.h"
+	"slinklist.cpp"
+	"Airport.h"
+	"Ticket.h"
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"QNode.cpp"
+	<ctime>
+
+1493971776 c:\users\talha\desktop\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493983692 c:\users\talha\desktop\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493935906 c:\users\talha\desktop\dsa poject\queue.h
+	<iostream>
+	"QNode.h"
+
+1493935244 c:\users\talha\desktop\dsa poject\qnode.h
+
+1493934156 c:\users\talha\desktop\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493545752 source:c:\users\talha\desktop\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493934156 source:c:\users\talha\desktop\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493983692 source:c:\users\talha\desktop\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493674688 source:c:\users\talha\desktop\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493982986 source:e:\dsa poject\bst.cpp
+	"BST.h"
+	<iostream>
+	"Customer_class.h"
+	<stdio.h>
+
+1493982052 e:\dsa poject\bst.h
+	"node.cpp"
+	"Customer_class.h"
+
+1493542152 e:\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493652094 e:\dsa poject\node.h
+
+1493982574 e:\dsa poject\customer_class.h
+	<iostream>
+	"slinklist.h"
+	"Ticket.h"
+	<fstream>
+
+1493979452 e:\dsa poject\slinklist.h
+	"snode.cpp"
+	"Plane.h"
+	"Airport.h"
+
+1493671088 e:\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
+1493671078 e:\dsa poject\snode.h
+
+1493978514 e:\dsa poject\plane.h
+	"slinklist.h"
+	<iostream>
+
+1493745560 e:\dsa poject\airport.h
+	"slinklist.h"
+	<iostream>
+
+1493977768 e:\dsa poject\ticket.h
+	"slinklist.h"
+	<iostream>
+
+1493968176 source:e:\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493967868 e:\dsa poject\flinklist.h
+	"fNode.cpp"
+	"Flight_class.h"
+
+1493896440 e:\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493896462 e:\dsa poject\fnode.h
+
+1493922684 e:\dsa poject\flight_class.h
+	"Ticket.h"
+	<iostream>
+
+1493896440 source:e:\dsa poject\fnode.cpp
+	"fnode.h"
+	"iostream"
+
+1493983026 source:e:\dsa poject\main.cpp
+	<iostream>
+	"Customer_class.h"
+	"BST.h"
+	"Flight_class.h"
+	"flinklist.cpp"
+	<fstream>
+	"Plane.h"
+	"slinklist.cpp"
+	"Airport.h"
+	"Ticket.h"
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"QNode.cpp"
+	<ctime>
+
+1493968176 e:\dsa poject\flinklist.cpp
+	"iostream"
+	"fLinklist.h"
+	"Flight_class.h"
+	"fnode.h"
+	<stdio.h>
+
+1493980092 e:\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493932306 e:\dsa poject\queue.h
+	<iostream>
+	"QNode.h"
+
+1493931644 e:\dsa poject\qnode.h
+
+1493930556 e:\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493542152 source:e:\dsa poject\node.cpp
+	"Node.h"
+	<iostream>
+
+1493930556 source:e:\dsa poject\qnode.cpp
+	"QNode.h"
+	<iostream>
+
+1493980092 source:e:\dsa poject\slinklist.cpp
+	"iostream"
+	"slinklist.h"
+	"Plane.h"
+	"Ticket.h"
+
+1493671088 source:e:\dsa poject\snode.cpp
+	"snode.h"
+	"iostream"
+
