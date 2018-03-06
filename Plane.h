@@ -92,12 +92,9 @@ public:
     {
         cout << "plane id = "<< planeId<<endl;
         cout << "Number of miles = "<< numberOfMilesTraveled<<endl;
-        //cout << "First class seats available = "<< 20-first_class<<endl;
-        //cout << "Second class seats available = "<< 80-second_class<<endl;
         cout << "Total seats are available = "<<100-counter<<endl;
     }
 
-//Public member functions
 
 };
 #endif // PLANE_H_INCLUDED

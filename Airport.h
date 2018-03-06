@@ -65,7 +65,6 @@ private:
         {
             cout<<airportName<<"--"<<country<<"--"<<usualWeatherCondition<<"--"<<timeFromBeirut<<"--"<<milesFromBeirut;
         }
- //Traveled by passenger for offers and numberOfMiles Travelled by plane for maintenance
- //Public member functions to getName, getCountry, getTime(airport), setInfo.
+
 };
 #endif // AIRPORT_H_INCLUDED

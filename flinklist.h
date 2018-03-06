@@ -8,12 +8,7 @@ class fLinklist
     public:
     fNode<T> *head;
     fNode<T> *tail;
-    //void set_head(fNode *);
-    //void set_tail(fNode *);
-    //fNode* get_head();
-    //fNode* get_tail();
     fLinklist();
-    //Linklist(fNode *,fNode *);
     void add_at_end(T );
     fNode<Flight>* search(string ,string );
     bool Destination_search(string);

@@ -35,42 +35,7 @@ int main()
 
     Plane pobj;
     SLinklist<Plane> sobj;
-     /*
 
-
-  cout<<"Customer\n";
-    obj.insertinfo("haider",12, "adsa94", "w32949dfdsf", "3asdasdads", "qweqwewq");
-    obj2.insertinfo("haider",13, "adsa94", "w32949dfdsf", "3asdasdads", "qweqwewq");
-    obj3.insertinfo("haider",14, "adsa94", "w32949dfdsf", "3asdasdads", "qweqwewq");
-    obj4.insertinfo("haider",15, "adsa94", "w32949dfdsf", "3asdasdads", "qweqwewq");
-     obj1.insert(obj);
-    obj1.insert(obj2);
-    obj1.insert(obj3);
-        obj1.display_in(obj1.root);
-
-    cout<<"\nPlane\n";
-
-    pobj.set_info(13,"asdsda",2017);
-    pobj1.set_info(14,"asasdsada",20117);
-    sobj.add_at_end(pobj);
-    sobj.add_at_end(pobj1);
-
-
-    obj1.insert(obj4);
-    sobj.display();
-    cout<<"\n\nFlight\n";
-    fobj.set_info("asas","asas","asas","asas","asas","asas","asas");
-    fobj1.set_info("asas","asas","asas","asas","asas","asas","asas");
-    lobj.add_at_end(fobj);
-    lobj.add_at_end(fobj1);
-        lobj.display();
-    cout<<endl<<endl;
-    cout<<"\n\nAirport\n";
-    aobj.set_info("hjaaj","hjaaj","hjaaj",1212,213);
-    aobj1.set_info("hjasadsadj","fefhjaaj","hjaasdasaj",121332,33213);
-    asobj.add_at_end(aobj);
-    asobj.add_at_end(aobj1);
-    asobj.display();*/
 
     Airport object;
     int choice;
@@ -78,9 +43,7 @@ int main()
     do
     {
         system("CLS");
-        cout << "********************************************************"<<endl;
-        cout << "                      Main menu                         "<<endl;
-        cout << "********************************************************"<<endl;
+      cout<<"-------------Menu-------------"<<endl;
         cout << "1-   Flight reservation  \n"<<endl;
         cout << "2-   Customer \n"<<endl;
         cout << "3-   Flights  \n"<<endl;
@@ -227,8 +190,7 @@ int main()
             cout << "1- Add customer\n"<<endl;
             cout << "2- Update customer info \n"<<endl;
             cout << "3- Delete customer      \n"<<endl;
-            cout << "4- View customer profile\n"<<endl;
-            cout << "5- to go to main menu "<<endl;
+            cout << "4- to go to main menu "<<endl;
             cin >> choice;
             if (choice==1)
             {
@@ -279,16 +241,11 @@ int main()
                     obj1.erase(obj1.root,id);
                     cout <<endl<<"customer is deleted successfully ....."<<endl;
                 }
-            else
+            else if(choice==4){
                 cout << "customer not found..."<<endl;
 
         }
-            else if (choice==4)
-            {
-                obj1.display_in(obj1.root);
-
-                //system("CLS");
-            }
+         }
 
         }
 
@@ -298,9 +255,7 @@ int main()
             cout <<"1- Add flight\n"<<endl;
             cout <<"2- Update flight\n"<<endl;
             cout <<"3- Delete flight\n"<<endl;
-            cout <<"4- View flights\n"<<endl;
-            cout <<"5- view planes\n"<<endl;
-            cout <<"6- to go back to main menu"<<endl;
+            cout <<"4- to go back to main menu"<<endl;
             cin >> choice;
             if (choice==1)
             {
@@ -346,20 +301,17 @@ int main()
                 cin>>fid;
                 lobj.delete_by_value(fid);
 
+
             }
-            else if (choice==4)
-            {
-                lobj.display();
-                sobj.display();
-                //system("CLS");
-            }
+
         }
         else if (choice==4)
         {
             fstream customers;
             customers.open("Customer.txt",ios::in);
             while(!customers.eof())
-            {   string id;
+            {
+                 string id;
             int i,nof,mt;
                 string name, phone,dob,numOfFlights,milesTraveled;
                 customers>>name;customers>>id;customers>>phone;customers>>dob;customers>>numOfFlights;customers>>milesTraveled;
@@ -388,18 +340,7 @@ int main()
 
             }
             flight.close();
-            /*fstream airport;
-            airport.open("Airport.txt",ios::in);
-            while(!airport.eof())
-            {
-                string airportName,country,usualWeatherCondition,timeFromBeirut,milesFromBeirut;
-                airport>>airportName;airport>>country;airport>>usualWeatherCondition;airport>>timeFromBeirut;
-                airport>>milesFromBeirut;
-                aobj.set_info(airportName,country,usualWeatherCondition,timeFromBeirut,milesFromBeirut);
-                asobj.add_at_end(aobj);
 
-            }
-            airport.close();*/
             fstream planes;
             planes.open("Planes.txt",ios::in);
             while(!planes.eof())

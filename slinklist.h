@@ -9,13 +9,7 @@ class SLinklist
     SNode<T> *head;
     SNode<T> *tail;
     public:
-    //void set_head(Node *);
-    //void set_tail(Node *);
-    //Node* get_head();
-    //Node* get_tail();
     SLinklist();
-    //Linklist(Node *,Node *);
-    //void add_at_start(int);
     bool seat_reserve(string);
     bool seat_cancel(string pi);
     void delete_by_value(int id,string fn);

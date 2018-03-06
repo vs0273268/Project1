@@ -13,7 +13,6 @@ public:
     Node<Customer>* erase(Node<Customer>* t,int data);
     Node<Customer>* min(Node<Customer> * temp);
     void outt(Node<Customer>* temp);
-
     void display_in(Node<Customer> *val);
 };
 
